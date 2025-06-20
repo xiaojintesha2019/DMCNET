@@ -4,7 +4,7 @@ i=1
 ns=(1 )
 bszs=(1 )
 lens=(24 48)
-methods=('onenet_plus' ) 
+methods=('DMCnet' ) 
 for n in ${ns[*]}; do
 for bsz in ${bszs[*]}; do
 for len in ${lens[*]}; do
