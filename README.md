@@ -2,11 +2,18 @@
 
 
 ## Introduction for DMCnet
-
+![LOADING](/DMCNET.jpg "DMCNET OVERVIEW")
 
 ## Introduction for PCpower
 
+![LOADING](/pcpower.png "pcpower demo")
+The annotation of the PCpower dataset follows the principle of accurately depicting the association between user behavior and component power consumption, and constructs a clear, layered, and logically rigorous annotation system for different usage scenarios. For example, in the entertainment web page scenario, key information such as the URL of each newly opened web page, the time of access, and the page-staying duration is recorded in detail. This aims to outline the user's behavior trajectory in the web browsing process and the corresponding power consumption changes of each component through these fine-grained annotations.
 
+In the office work scenario, for the key operations of commonly used office software (such as Word, Excel, PPT, etc.), including inserting pictures, editing text, creating and saving files, the specific timestamps, operation sequences, and related file attributes are all meticulously annotated. In this way, the mapping relationship between office-operation behavior and the power consumption of each component is established.
+
+In the professional creation scenario, for the core links involved in video editing, such as importing videos, editing videos, previewing videos, and exporting and rendering, not only the start and end times and operation parameters of each link are recorded, but also the power consumption status changes of each component of the notebook computer corresponding to them are annotated. Through this comprehensive and detailed annotation system, the intrinsic connection between complex-operation behavior and power consumption in professional creation tasks is deeply revealed.
+
+Through this annotation process, not only can it provide annotated data with clear semantics and structure for subsequent behavior analysis, scenario classification, and power consumption prediction research based on data mining and machine learning, but it also helps to deepen the theoretical understanding of the coupling relationship between user behavior and computer system energy consumption, and promotes the academic research progress in user behavior perception, energy efficiency optimization, and intelligent system control in related fields.
 
 ## Requirements
 
